@@ -90,7 +90,7 @@ header{
 .hero h1{
   font-size:clamp(4rem,9vw,8rem);line-height:.93;letter-spacing:-.065em;margin:27px 0 0;font-weight:600
 }
-.hero h1 span{display:block}
+.hero h1 span{display:block;white-space:nowrap}
 .hero h1 .white{background:linear-gradient(#fff,#a3a3a3);-webkit-background-clip:text;color:transparent}
 .hero h1 .grad{margin-top:9px;background:linear-gradient(90deg,#ffb000,#ff7600,#ff3b30);-webkit-background-clip:text;color:transparent}
 .hero p{
@@ -185,7 +185,7 @@ header{
 }
 .detect-box:before{
   content:"P-WAVE";position:absolute;top:-20px;left:0;font-family:"Space Mono";
-  font-size:8px;color:#ff8a00;letter-spacing:.1em;white-space:nowrap;display:inline-block
+  font-size:8px;color:#ff8a00;letter-spacing:.1em;white-space:nowrap
 }
 .feature-node{
   position:absolute;padding:10px 12px;border:1px solid rgba(255,255,255,.1);border-radius:12px;
@@ -263,7 +263,7 @@ footer{
 }
 @media(max-width:560px){
   header{padding:14px}.nav{grid-template-columns:1fr}.nav-cta{display:none}.brand{justify-self:center}
-  .hero{padding-inline:12px}.hero h1{font-size:clamp(3.3rem,16vw,5.5rem)}
+  .hero{padding-inline:12px}.hero h1{font-size:clamp(2.6rem,11.5vw,5.5rem)}
   .story{height:460vh}.stage{padding-inline:10px}
   .visual{min-height:390px;border-radius:20px}
   .ecg-area{left:2%;right:2%;top:22%}
